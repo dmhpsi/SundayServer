@@ -5,6 +5,10 @@ from django.db import models
 class User(models.Model):
     username = models.CharField(max_length=20)
     password = models.CharField(max_length=30)
+    info = models.CharField(max_length=500, default="")
+    info_time = models.BigIntegerField(default=-1)
+    contacts = models.CharField(max_length=500, default="")
+    contacts_time = models.BigIntegerField(default=-1)
 
 
 class Feed(models.Model):
