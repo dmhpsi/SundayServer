@@ -24,7 +24,7 @@ SECRET_KEY = '#a5kz3l5d-*@ma(w7@4w4utd-mspik@*6y@@g17ji($=f%@far'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['darkha.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'darkha.pythonanywhere.com']
 
 # Application definition
 
@@ -114,3 +114,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
